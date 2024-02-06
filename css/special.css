@@ -986,7 +986,7 @@ header .container .links li:hover a {
 
 .skills .container .skill .prbar {
   flex-grow: 1;
-  background-color: var(--backcolor);
+  background-color: var(--bgcolor);
   height: 30px;
   border-radius: 8px;
   overflow: hidden;
