@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my new Special Design.">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/special.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+  <link rel="icon" href="./imgs/myimg.jpg">
+  <title>Khaled Al Nashi</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('9q_GPm0ZpLaWR0R7d')
+  </script>
+</head>
+<body>
+  <div class="loader">
+    <div class="loader-cont">
+      <div class="logo">
+        <div class="img"><img src="./imgs/myimg.jpg" alt="" ></div>
+        <div class="text">
+          Khaled Al nashi<br><span>Front-end developer</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="scrollprogress">
+  </div>
+
+  <div class="to-up"><i class="fas fa-angle-double-up fa-2x"></i></div>
+
+  <div class="settings">
+
+    <div class="set-flow">
+      <div class="gearcont"> <i class="fas fa-gear"></i></div>
+
+      <div class="setcont shad">
+        <h2>Colors</h2>
+        <ul class="colors">
+          <li class="active" data-color="#3498DB"></li>
+          <li data-color="#1ABC9C"></li>
+          <li data-color="#9B59B6"></li>
+          <li data-color="#E67E22"></li>
+          <li data-color="#E74C3C"></li>
+        </ul>
+      </div>
+
+      <div class="setcont shad">
+        <h2>Random Backgrounds</h2>
+        <div class="bg-box cont">
+          <div class="yes" data-value="yes">Yes</div>
+          <div class="no" data-value="no">No</div>
+        </div>
+      </div>
+
+      <div class="setcont shad">
+        <h2>Bullets Display</h2>
+        <div class="bul-box cont">
+          <div class="yes" data-value="yes">Yes</div>
+          <div class="no" data-value="no">No</div>
+        </div>
+      </div>
+
+      <div class="setcont shad">
+        <h2>Theme</h2>
+        <div class="theme-box cont">
+          <div class="dark-but" data-th="yes">Dark</div>
+          <div class="light" data-th="no">Light</div>
+        </div>
+      </div>
+
+      <div class="reset shad">Reset Options</div>
+    </div>
+
+  </div>
+
+  <div class="bullets">
+    <div class="bullet" data-sec=".landing">
+      <div class="tip">Home</div>
+    </div>
+    <div class="bullet" data-sec=".about">
+      <div class="tip">About Me</div>
+    </div>
+    <div class="bullet" data-sec=".skills">
+      <div class="tip">Skills</div>
+    </div>
+    <div class="bullet" data-sec=".gallery">
+      <div class="tip">Gallery</div>
+    </div>
+    <div class="bullet" data-sec=".time">
+      <div class="tip">Timeline</div>
+    </div>
+    <div class="bullet" data-sec=".features">
+      <div class="tip">Features</div>
+    </div>
+    <div class="bullet" data-sec=".projects">
+      <div class="tip">Projects</div>
+    </div>
+    <div class="bullet" data-sec=".contact">
+      <div class="tip">Contact Me</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container">
+      <a href="">
+        <div class="logo">
+          <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 419.931 419.931" xml:space="preserve">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <g>
+                    <path class="fill-white"
+                      d="M282.895,352.367c-2.176-1.324-4.072-3.099-5.579-5.25c-0.696-0.992-1.284-2.041-1.771-3.125H28.282V100.276h335.624 v159.138c7.165,0.647,13.177,5.353,15.701,11.797c2.235-1.225,4.726-1.982,7.344-2.213c1.771-0.154,3.53-0.044,5.236,0.293 V39.561c0-12.996-10.571-23.569-23.566-23.569H23.568C10.573,15.992,0,26.565,0,39.561v309.146 c0,12.996,10.573,23.568,23.568,23.568h257.179c-2.007-4.064-2.483-8.652-1.302-13.066 C280.126,356.67,281.304,354.354,282.895,352.367z M338.025,55.569c0-4.806,3.896-8.703,8.702-8.703h8.702 c4.807,0,8.702,3.896,8.702,8.703v9.863c0,4.806-3.896,8.702-8.702,8.702h-8.702c-4.807,0-8.702-3.896-8.702-8.702V55.569z M297.56,55.569c0-4.806,3.896-8.703,8.702-8.703h8.703c4.807,0,8.702,3.896,8.702,8.703v9.863c0,4.806-3.896,8.702-8.702,8.702 h-8.703c-4.806,0-8.702-3.896-8.702-8.702V55.569z M257.094,55.569c0-4.806,3.897-8.703,8.702-8.703h8.702 c4.807,0,8.703,3.896,8.703,8.703v9.863c0,4.806-3.896,8.702-8.703,8.702h-8.702c-4.805,0-8.702-3.896-8.702-8.702V55.569z">
+                    </path>
+                    <path class="fill-main"
+                      d="M419.875,335.77l-2.615-14.83c-0.353-1.997-2.256-3.331-4.255-2.979l-13.188,2.324c-1.583-3.715-3.605-7.195-6.005-10.38 l8.614-10.268c0.626-0.744,0.931-1.709,0.847-2.68c-0.086-0.971-0.554-1.867-1.3-2.494l-11.534-9.68 c-0.746-0.626-1.713-0.93-2.683-0.845c-0.971,0.085-1.867,0.552-2.493,1.298l-8.606,10.26c-3.533-1.8-7.312-3.188-11.271-4.104 v-13.392c0-2.028-1.645-3.674-3.673-3.674h-15.06c-2.027,0-3.673,1.646-3.673,3.674v13.392 c-3.961,0.915-7.736,2.304-11.271,4.104l-8.608-10.259c-1.304-1.554-3.62-1.756-5.175-0.453l-11.535,9.679 c-0.746,0.627-1.213,1.523-1.299,2.494c-0.084,0.971,0.22,1.937,0.846,2.683l8.615,10.266c-2.396,3.184-4.422,6.666-6.005,10.38 l-13.188-2.325c-1.994-0.351-3.901,0.982-4.255,2.979l-2.614,14.83c-0.169,0.959,0.05,1.945,0.607,2.744 c0.561,0.799,1.41,1.342,2.37,1.511l13.198,2.326c0.215,4.089,0.927,8.045,2.073,11.812l-11.6,6.695 c-0.844,0.485-1.459,1.289-1.712,2.229c-0.252,0.941-0.119,1.943,0.367,2.787l7.529,13.041c0.485,0.844,1.289,1.459,2.229,1.711 c0.313,0.084,0.632,0.125,0.951,0.125c0.639,0,1.272-0.166,1.836-0.492l11.609-6.703c2.73,2.925,5.812,5.517,9.18,7.709 l-4.584,12.593c-0.332,0.916-0.289,1.926,0.123,2.809s1.157,1.566,2.072,1.898l14.148,5.149c0.406,0.148,0.832,0.224,1.257,0.224 c0.53,0,1.063-0.115,1.554-0.345c0.883-0.411,1.564-1.157,1.897-2.073l4.583-12.593c1.965,0.238,3.965,0.361,5.994,0.361 s4.029-0.125,5.994-0.361l4.584,12.593c0.332,0.916,1.016,1.662,1.897,2.073c0.49,0.229,1.021,0.345,1.554,0.345 c0.424,0,0.85-0.074,1.256-0.224l14.15-5.149c0.913-0.332,1.659-1.017,2.07-1.898c0.412-0.883,0.456-1.893,0.123-2.809 l-4.584-12.591c3.365-2.192,6.447-4.786,9.18-7.709l11.609,6.703c0.563,0.324,1.197,0.492,1.836,0.492 c0.318,0,0.64-0.043,0.951-0.125c0.941-0.252,1.743-0.869,2.229-1.711l7.529-13.043c0.486-0.842,0.619-1.846,0.367-2.787 c-0.253-0.938-0.868-1.742-1.712-2.229l-11.598-6.693c1.146-3.768,1.856-7.724,2.071-11.812l13.198-2.327 c0.96-0.169,1.812-0.712,2.37-1.511C419.825,337.715,420.044,336.729,419.875,335.77z M354.184,359.336 c-11.155,0-20.2-9.045-20.2-20.201s9.046-20.2,20.2-20.2c11.156,0,20.201,9.044,20.201,20.2S365.34,359.336,354.184,359.336z">
+                    </path>
+                    <g>
+                      <path class="fill-main"
+                        d="M164.695,235.373c0-4.752-2.785-9.117-7.096-11.119l-39.455-18.332l39.456-18.334c4.31-2.004,7.095-6.368,7.095-11.118 v-0.319c0-4.21-2.119-8.075-5.665-10.334c-1.962-1.253-4.247-1.916-6.606-1.916c-1.778,0-3.563,0.391-5.16,1.133l-63.078,29.333 c-4.309,2.004-7.092,6.368-7.092,11.117v0.877c0,4.743,2.782,9.104,7.093,11.118l63.084,29.336 c1.631,0.755,3.368,1.138,5.162,1.138c2.338,0,4.616-0.664,6.597-1.924c3.548-2.268,5.666-6.13,5.666-10.335L164.695,235.373 L164.695,235.373z">
+                      </path>
+                      <path class="fill-main"
+                        d="M226.932,134.012c-2.301-3.15-6.002-5.03-9.901-5.03h-0.314c-5.354,0-10.048,3.425-11.679,8.516L163.478,266.27 c-1.183,3.718-0.517,7.813,1.781,10.962c2.301,3.148,6.002,5.029,9.901,5.029h0.315c5.352,0,10.043-3.426,11.672-8.516 l41.555-128.762C229.896,141.268,229.234,137.167,226.932,134.012z">
+                      </path>
+                      <path class="fill-main"
+                        d="M308.001,194.366l-63.079-29.333c-1.592-0.74-3.374-1.131-5.152-1.131c-2.358,0-4.644,0.661-6.605,1.912 c-3.552,2.263-5.671,6.127-5.671,10.337v0.319c0,4.746,2.783,9.111,7.097,11.123l39.454,18.33l-39.455,18.331 c-4.311,2.002-7.096,6.367-7.096,11.119v0.321c0,4.205,2.119,8.066,5.669,10.336c1.974,1.258,4.254,1.923,6.595,1.923 c1.792,0,3.527-0.383,5.169-1.141l63.082-29.336c4.307-2.009,7.088-6.371,7.088-11.114v-0.877 C315.094,200.735,312.311,196.371,308.001,194.366z">
+                      </path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <p>KHALED AL NASHI<br><span>FRONT-END DEVELOPER</span></p>
+      </a>
+      <div class="links-box">
+        <div class="bars">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="links">
+          <li><a href="#about" data-sec=".about">About Me</a></li>
+          <li><a href="#skills" data-sec=".skills">Skills</a></li>
+          <li><a href="#gallery" data-sec=".gallery">Gallery</a></li>
+          <li><a href="#time" data-sec=".time">Timeline</a></li>
+          <li><a href="#features" data-sec=".features">Features</a></li>
+          <li><a href="#projects" data-sec=".projects">Projects</a></li>
+          <li><a href="#contact" data-sec=".contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="landing" id="home">
+    <div class="overlay"></div>
+    <div class="text">
+      <h1>Simply ... <br><span>Programmers never die they just go offline.</span></h1>
+      <p></p>
+    </div>
+    <a href="#about" class="go-down">
+      <i class="fas fa-angle-double-down fa-2x"></i>
+    </a>
+  </section>
+  
+
+  <section class="about" id="about">
+    <div class="container">
+      <h1>
+        About <span>Me</span>
+      </h1>
+      <div class="box">
+        <div class="text">
+          <p>Passionate and self-driven Front-End Developer with a strong proficiency and a keen problem-solving mindset. Eager to
+          apply my solid skills in website development, embracing challenges as opportunities for continuous learning. Dedicated
+          to mastering my field and overcoming obstacles through persistent research and a resilient commitment to finding optimal
+          solutions.</p>
+        </div>
+        <div class="img">
+          <img src="./imgs/about-us.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="features" id="features">
+  <div class="container">
+    <h1>My <span>Features</span></h1>
+    <div class="cont">
+
+      <div class="feat shad">
+        <img src="./imgs/creativity-1.svg" alt="" srcset="">
+        <h2>Creativity</h2>
+        <p>My creativity doesn't just apply to creating user interfaces. It also applies to problem solving,
+          workarounds, customer
+          management and innovative use of technological tools.</p>
+      </div>
+
+      <div class="feat shad">
+        <img src="./imgs/web-design.svg" alt="" srcset="">
+        <h2>Passion</h2>
+        <p>My true passion drives me to strive to learn new things about and related to my field, come up with creative
+          solutions to problems, and create
+          excellent digital products and websites.</p>
+      </div>
+
+      <div class="feat shad">
+        <img src="./imgs/Trustworthiness.svg" alt="" srcset="">
+        <h2>Trustworthiness</h2>
+        <p>Web development often involves handling sensitive information and data .Honesty and truthfulness in any
+          technical job is
+          just as important as the technical skills themselves.</p>
+      </div>
+
+      <div class="feat shad">
+        <img src="./imgs/Communication.svg" alt="" srcset="">
+        <h2>Communication</h2>
+        <p>Communication skills with coworkers and supervisors are essential in any field, but in Web development – with
+          so many
+          moving pieces going into a project – it is especially critical.</p>
+      </div>
+
+      <div class="feat shad">
+        <img src="./imgs/Curiosity.svg" alt="" srcset="">
+        <h2>Curiosity</h2>
+        <p>Curiosity is an innate quality and perhaps one of the most important qualities I have. Curiosity encourages
+          me to study
+          independently, developing additional and directly related skills.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h1>My <span>Gallery</span></h1>
+      <div class="box">
+        <img src="./imgs/01.jpg" alt="Image One" class="shad">
+        <img src="./imgs/02.jpg" alt="Image Two" class="shad">
+        <img src="./imgs/03.jpg" alt="Image Three" class="shad">
+        <img src="./imgs/04.jpg" alt="Image Four" class="shad">
+        <img src="./imgs/05.jpg" alt="Image Five" class="shad">
+        <img src="./imgs/06.jpg" alt="Image Six" class="shad">
+        <img src="./imgs/07.jpg" alt="Image Seven" class="shad">
+        <img src="./imgs/08.jpg" alt="Image Eight" class="shad">
+        <img src="./imgs/09.jpg" alt="Image Nine" class="shad">
+        <img src="./imgs/10.jpg" alt="Image Ten" class="shad">
+      </div>
+    </div>
+  </section>
+
+  <section class="time" id="time">
+    <div class="container">
+      <h1>Time<span>line</span></h1>
+
+      <div class="content">
+
+        <div class="year">2018</div>
+        <div class="left shad">
+          <h2>Bachelor's degree</h2>
+          <p>I started studying at the Faculty of Computer Science at the University of Rostock,it is the third-oldest university in
+          Germany. It is the oldest university in continental northern Europe and the Baltic Sea area.</p>
+        </div>
+        <div class="year">2020</div>
+        <div class="right shad">
+          <h2>Practiced in InProSa Technology GmbH</h2>
+          <p>The Practiced lasted six months and is in the area of programming and design.
+            His areas of application and activities carried out included the following points:
+            <br>&#9906; Connection between the Android app and the database (MYSQL).
+            <br>&#9906; Use local database.
+            <br>&#9906; Android programming using Dart (Flutter).
+          </p>
+        </div>
+        <div class="year">2022</div>
+        <div class="left shad">
+          <h2>Bachelor Thesis</h2>
+          <p>Development of apps to control the movements of the arms, where the robot gives hints to improve the exercise. <br>This was achieved using these algorithms: <br>&#9906;OpenCv [13] for detection.
+          <br>&#9906; Numpy[14] for image processing.
+          <br>&#9906; MediaPipe [15] to detect arm keypoints from individual video frames. <br>&#9906; Maht to perform arithmetic operations.
+          <br>&#9906;Based on research, an MQTT broker/server is used.</p>
+        </div>
+
+        <div class="year">2023</div>
+        <div class="right shad">
+          <h2>Bachelor completed</h2>
+          <p>I completed my studies at the Faculty of Computer Science.</p>
+        </div>
+
+        
+        <div class="left shad">
+          <h2>Master's degree</h2>
+          <p>I started studying with at The Master's degree of Computer Science at the University of Rostock.</p>
+        </div>
+
+        <div class="right shad">
+          <h2>Three projects</h2>
+          <p><b>&#10061;&nbsp;Template One</b>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Using&nbsp;:&nbsp;HTML, CSS, Responsive Design.
+          <br><b>&#10061;&nbsp;Template Two</b>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Using &nbsp;:&nbsp;HTML, CSS, JavaScript, Responsive Design.
+          <b>&#10061;&nbsp;Dashboard</b>
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Using&nbsp;:&nbsp;HTML, CSS, BootStrap, Responsive Design.</p>
+          
+        </div>
+        <div class="year">2024</div>
+        <div class="left shad">
+          <h2>Two projects</h2>
+          <p><b>&#10061;&nbsp;CRUDS</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Using&nbsp;:&nbsp;HTML, CSS, JavaScript, Responsive Design.
+            <br><b>&#10061;&nbsp;Special Design</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Using &nbsp;:&nbsp;HTML, CSS, JavaScript, Responsive Design.
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="container">
+      <h1>My <span>Skills</span></h1>
+  
+      <div class="skill shad">
+        <div class="name">
+          HTML
+        </div>
+        <div class="prbar">
+          <span data-pr="90%"></span>
+        </div>
+        <div class="cent">90%</div>
+      </div>
+  
+      <div class="skill shad">
+        <div class="name">
+          CSS
+        </div>
+        <div class="prbar">
+          <span data-pr="80%"></span>
+        </div>
+        <div class="cent">80%</div>
+      </div>
+  
+      <div class="skill shad">
+        <div class="name">
+          JavaScript
+        </div>
+        <div class="prbar">
+          <span data-pr="80%"></span>
+        </div>
+        <div class="cent">80%</div>
+      </div>
+  
+      <div class="skill shad">
+        <div class="name">
+          React
+        </div>
+        <div class="prbar">
+          <span data-pr="70%"></span>
+        </div>
+        <div class="cent">70%</div>
+      </div>
+  
+      <div class="skill shad">
+        <div class="name">
+          BootStrap
+        </div>
+        <div class="prbar">
+          <span data-pr="75%"></span>
+        </div>
+        <div class="cent">75%</div>
+      </div>
+  
+      <div class="skill shad">
+        <div class="name">
+          SASS
+        </div>
+        <div class="prbar">
+          <span data-pr="80%"></span>
+        </div>
+        <div class="cent">80%</div>
+      </div>
+      <div class="skill shad">
+        <div class="name">
+          GIT
+        </div>
+        <div class="prbar">
+          <span data-pr="70%"></span>
+        </div>
+        <div class="cent">70%</div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="projects" id="projects">
+    <div class="container">
+      <h1>My <span>Projects</span></h1>
+      <div class="cont  Pro">
+        <div class="test shad">
+          <div class="info">
+            <div class="text">
+              <h3>Template One</h3>
+              <p>Web application</p>
+            </div>
+          </div>
+          <p>Developed a sleek front end project using only Html and Css. This web application is designed to provide an
+            optimal user experience. The design is taken from the Kasper website, and many features have been added to it that may
+            benefit the user and make the website easier.</p>
+          <div class="link"><a href="https://github.com/Khaled-Alnashi/Template-One" target="_blank">Github Repo</a>
+            <a href="https://khaled-alnashi.github.io/Template-One/" target="_blank">Demo</a>
+          </div>
+        </div>
+        <div class="test shad">
+          <div class="info">
+            <div class="text">
+              <h3>Template Two</h3>
+              <p>Web application</p>
+            </div>
+          </div>
+          <p>Developed a sleek front end project using JavaScript, Html and Css. This web application is designed to provide an
+          optimal user experience. The design is taken from the Free website, and many features have been added to it that may
+          benefit the user and make the website easier.</p>
+          <div class="link"><a href="https://github.com/Khaled-Alnashi/Template-Two" target="_blank">Github Repo</a>
+            <a href="https://khaled-alnashi.github.io/Template-Two/" target="_blank">Demo</a>
+          </div>
+        </div>
+        <div class="test shad">
+          <div class="info">
+            <div class="text">
+              <h3>Dashboard</h3>
+              <p>Web application</p>
+            </div>
+          </div>
+          <p>Developed a Dashboard project using Html, Css and BootStrap. Designed for optimal user experience, This web
+            application
+            features responsive development languages and elegant design, This Dashboard information about the programming
+            school, its projects and courses, as well as members.</p>
+          <div class="link"><a href="https://github.com/Khaled-Alnashi/Dashboard" target="_blank">Github Repo</a>
+            <a href="https://khaled-alnashi.github.io/Dashboard/" target="_blank">Demo</a>
+          </div>
+        </div>
+        <div class="test shad">
+          <div class="info">
+            <div class="text">
+              <h3>CRUDS</h3>
+              <p>Web application</p>
+            </div>
+          </div>
+          <p>Developed a sleek front-end project using JavaScript, Html and Css. Designed for optimal user experience, This
+            dynamic
+            web application features responsive development languages and elegant design, for easy Create, Read, Update, Delete,
+            and
+            Search operations on data.</p>
+          <div class="link"><a href="https://github.com/Khaled-Alnashi/CRUDS" target="_blank">Github Repo</a>
+            <a href="https://khaled-alnashi.github.io/CRUDS/" target="_blank">Demo</a>
+          </div>
+        </div>
+        <div class="test shad">
+          <div class="info">
+            <div class="text">
+              <h3>Special Design</h3>
+              <p>Web application</p>
+            </div>
+          </div>
+          <p>Developed a sleek front-end project using JavaScript, Html and Css. This dynamic web application is designed to
+          provide an optimal user experience, featuring responsive development languages and an elegant design. This website is
+          about me, my skills and projects.</p>
+          <div class="link"><a href="https://github.com/Khaled-Alnashi/Password-Generator" target="_blank">Github Repo</a>
+            <a href="https://khaled-alnashi.github.io/Password-Generator/" target="_blank">Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1>Contact <span>Me</span></h1>
+      <form action="#" class="cont" id="form">
+        <div class="icon">
+          <input type="text" name="name" id="name" placeholder="Your Name" class="item">
+          <i class="fa-solid fa-triangle-exclamation errorIcon" class="item"></i>
+          <i class="fa-solid fa-circle-check erflogIcon" class="item"></i>
+          <div class="errorDiv">Full Name can't be blank</div>
+        </div>
+        
+        <div class="icon">
+          <input type="text" name="mail" id="mail" placeholder="Your Email" class="item">
+          <i class="fa-solid fa-triangle-exclamation errorIcon" class="item"></i>
+          <i class="fa-solid fa-circle-check erflogIcon" class="item"></i>
+          <div class="errorDiv">Email Address can't be blank</div>
+        </div>
+        <div class="icon">
+          <textarea name="text" name="message" id="message" placeholder="Your Message" class="item"></textarea>
+          <i class="fa-solid fa-triangle-exclamation errorIcon" class="item"></i>
+          <i class="fa-solid fa-circle-check erflogIcon" class="item"></i>
+          <div class="errorDiv">Message can't be blank</div>
+        </div>
+        <div class="submit"><input type="submit" value="Send" class="shad" ></div>
+        
+      </form>
+    </div>
+  </section>
+
+  <footer class="dark">
+    <div class="container">
+      <div class="box">
+        <a href="">
+          <div class="logo">
+            <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 419.931 419.931" xml:space="preserve">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <g>
+                  <g>
+                    <g>
+                      <path class="fill-white"
+                        d="M282.895,352.367c-2.176-1.324-4.072-3.099-5.579-5.25c-0.696-0.992-1.284-2.041-1.771-3.125H28.282V100.276h335.624 v159.138c7.165,0.647,13.177,5.353,15.701,11.797c2.235-1.225,4.726-1.982,7.344-2.213c1.771-0.154,3.53-0.044,5.236,0.293 V39.561c0-12.996-10.571-23.569-23.566-23.569H23.568C10.573,15.992,0,26.565,0,39.561v309.146 c0,12.996,10.573,23.568,23.568,23.568h257.179c-2.007-4.064-2.483-8.652-1.302-13.066 C280.126,356.67,281.304,354.354,282.895,352.367z M338.025,55.569c0-4.806,3.896-8.703,8.702-8.703h8.702 c4.807,0,8.702,3.896,8.702,8.703v9.863c0,4.806-3.896,8.702-8.702,8.702h-8.702c-4.807,0-8.702-3.896-8.702-8.702V55.569z M297.56,55.569c0-4.806,3.896-8.703,8.702-8.703h8.703c4.807,0,8.702,3.896,8.702,8.703v9.863c0,4.806-3.896,8.702-8.702,8.702 h-8.703c-4.806,0-8.702-3.896-8.702-8.702V55.569z M257.094,55.569c0-4.806,3.897-8.703,8.702-8.703h8.702 c4.807,0,8.703,3.896,8.703,8.703v9.863c0,4.806-3.896,8.702-8.703,8.702h-8.702c-4.805,0-8.702-3.896-8.702-8.702V55.569z">
+                      </path>
+                      <path class="fill-main"
+                        d="M419.875,335.77l-2.615-14.83c-0.353-1.997-2.256-3.331-4.255-2.979l-13.188,2.324c-1.583-3.715-3.605-7.195-6.005-10.38 l8.614-10.268c0.626-0.744,0.931-1.709,0.847-2.68c-0.086-0.971-0.554-1.867-1.3-2.494l-11.534-9.68 c-0.746-0.626-1.713-0.93-2.683-0.845c-0.971,0.085-1.867,0.552-2.493,1.298l-8.606,10.26c-3.533-1.8-7.312-3.188-11.271-4.104 v-13.392c0-2.028-1.645-3.674-3.673-3.674h-15.06c-2.027,0-3.673,1.646-3.673,3.674v13.392 c-3.961,0.915-7.736,2.304-11.271,4.104l-8.608-10.259c-1.304-1.554-3.62-1.756-5.175-0.453l-11.535,9.679 c-0.746,0.627-1.213,1.523-1.299,2.494c-0.084,0.971,0.22,1.937,0.846,2.683l8.615,10.266c-2.396,3.184-4.422,6.666-6.005,10.38 l-13.188-2.325c-1.994-0.351-3.901,0.982-4.255,2.979l-2.614,14.83c-0.169,0.959,0.05,1.945,0.607,2.744 c0.561,0.799,1.41,1.342,2.37,1.511l13.198,2.326c0.215,4.089,0.927,8.045,2.073,11.812l-11.6,6.695 c-0.844,0.485-1.459,1.289-1.712,2.229c-0.252,0.941-0.119,1.943,0.367,2.787l7.529,13.041c0.485,0.844,1.289,1.459,2.229,1.711 c0.313,0.084,0.632,0.125,0.951,0.125c0.639,0,1.272-0.166,1.836-0.492l11.609-6.703c2.73,2.925,5.812,5.517,9.18,7.709 l-4.584,12.593c-0.332,0.916-0.289,1.926,0.123,2.809s1.157,1.566,2.072,1.898l14.148,5.149c0.406,0.148,0.832,0.224,1.257,0.224 c0.53,0,1.063-0.115,1.554-0.345c0.883-0.411,1.564-1.157,1.897-2.073l4.583-12.593c1.965,0.238,3.965,0.361,5.994,0.361 s4.029-0.125,5.994-0.361l4.584,12.593c0.332,0.916,1.016,1.662,1.897,2.073c0.49,0.229,1.021,0.345,1.554,0.345 c0.424,0,0.85-0.074,1.256-0.224l14.15-5.149c0.913-0.332,1.659-1.017,2.07-1.898c0.412-0.883,0.456-1.893,0.123-2.809 l-4.584-12.591c3.365-2.192,6.447-4.786,9.18-7.709l11.609,6.703c0.563,0.324,1.197,0.492,1.836,0.492 c0.318,0,0.64-0.043,0.951-0.125c0.941-0.252,1.743-0.869,2.229-1.711l7.529-13.043c0.486-0.842,0.619-1.846,0.367-2.787 c-0.253-0.938-0.868-1.742-1.712-2.229l-11.598-6.693c1.146-3.768,1.856-7.724,2.071-11.812l13.198-2.327 c0.96-0.169,1.812-0.712,2.37-1.511C419.825,337.715,420.044,336.729,419.875,335.77z M354.184,359.336 c-11.155,0-20.2-9.045-20.2-20.201s9.046-20.2,20.2-20.2c11.156,0,20.201,9.044,20.201,20.2S365.34,359.336,354.184,359.336z">
+                      </path>
+                      <g>
+                        <path class="fill-main"
+                          d="M164.695,235.373c0-4.752-2.785-9.117-7.096-11.119l-39.455-18.332l39.456-18.334c4.31-2.004,7.095-6.368,7.095-11.118 v-0.319c0-4.21-2.119-8.075-5.665-10.334c-1.962-1.253-4.247-1.916-6.606-1.916c-1.778,0-3.563,0.391-5.16,1.133l-63.078,29.333 c-4.309,2.004-7.092,6.368-7.092,11.117v0.877c0,4.743,2.782,9.104,7.093,11.118l63.084,29.336 c1.631,0.755,3.368,1.138,5.162,1.138c2.338,0,4.616-0.664,6.597-1.924c3.548-2.268,5.666-6.13,5.666-10.335L164.695,235.373 L164.695,235.373z">
+                        </path>
+                        <path class="fill-main"
+                          d="M226.932,134.012c-2.301-3.15-6.002-5.03-9.901-5.03h-0.314c-5.354,0-10.048,3.425-11.679,8.516L163.478,266.27 c-1.183,3.718-0.517,7.813,1.781,10.962c2.301,3.148,6.002,5.029,9.901,5.029h0.315c5.352,0,10.043-3.426,11.672-8.516 l41.555-128.762C229.896,141.268,229.234,137.167,226.932,134.012z">
+                        </path>
+                        <path class="fill-main"
+                          d="M308.001,194.366l-63.079-29.333c-1.592-0.74-3.374-1.131-5.152-1.131c-2.358,0-4.644,0.661-6.605,1.912 c-3.552,2.263-5.671,6.127-5.671,10.337v0.319c0,4.746,2.783,9.111,7.097,11.123l39.454,18.33l-39.455,18.331 c-4.311,2.002-7.096,6.367-7.096,11.119v0.321c0,4.205,2.119,8.066,5.669,10.336c1.974,1.258,4.254,1.923,6.595,1.923 c1.792,0,3.527-0.383,5.169-1.141l63.082-29.336c4.307-2.009,7.088-6.371,7.088-11.114v-0.877 C315.094,200.735,312.311,196.371,308.001,194.366z">
+                        </path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <p>KHALED AL NASHI<br><span>FRONT-END DEVELOPER</span></p>
+        </a>
+        <div class="social">
+          <div class="one">
+            <a href="https://www.facebook.com/khalid.nachi.376" target="_blank" class="facebook"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/khalidnachi?igsh=N2ZmZDh6dGVvdnFs&utm_source=qr" target="_blank" class="instagram"><i
+                class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+4915201686913" target="_blank" class="whatsapp"><i 
+                class="fab fa-whatsapp"></i></a>
+          </div>
+          <div class="two">
+            <a href="https://github.com/Khaled-Alnashi" target="_blank" class="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/khaled-al-nashi-b17831299/" target="_blank" class="linked"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:alnashi.khaled1995@gmail.com" target="_blank" class="envelope"><i class="fas fa-envelope"></i></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <p>We are dedicated to provide the best service in the market concerning Programming and Web
+          Development.</p>
+
+        <div class="info">
+          <div class="loc">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Willem-Barents-Straße ,18106 Rostock</p>
+          </div>
+          <a href="tel:+4915201686913" target="_blank">
+            <i class="fas fa-phone"></i>
+            <p>+49-152-01686913</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="rights">
+    <div class="container">
+      <i class="far fa-copyright"></i> 2024 khaled al nashi developments, all rights reserved.
+    </div>
+  </div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
