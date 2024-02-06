@@ -198,9 +198,9 @@ up.addEventListener("click", () => {
 
 window.onscroll = () => {
   if (this.scrollY >= 800) {
-    up.style.opacity = "1"
-  } else {
-    up.style.opacity = "0"
+    up.style.display= "block";
+  } else if (this.scrollY === 0){
+    up.style.display = "none";
   }
 
   if (window.pageYOffset >= document.querySelector(".skills").offsetTop + document.querySelector(".skills").offsetHeight - this.innerHeight) {
