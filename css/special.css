@@ -109,15 +109,6 @@ img {
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
-button{
-  position: fixed;
-  bottom: 65px;
-  right: 20px;
-  z-index: 50;
-  color: var(--maincolor);
-  background-color: transparent;
-  outline-style: none;
-}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) {
@@ -220,6 +211,7 @@ button{
   cursor: pointer;
   color: var(--maincolor);
   z-index: 2;
+  display: none;
 }
 @media (max-width: 767px) {
   .to-up {
