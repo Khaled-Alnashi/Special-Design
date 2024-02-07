@@ -1345,13 +1345,18 @@ footer .container .box>p {
   margin: 0;
   font-size: 20px;
 }
-
+footer .container .box .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
 footer .container .box .info a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: fit-content;
-  gap: 15px;
   padding-right: 20px;
   border-radius: 8px;
   background-color: var(--bgcolor);
@@ -1389,7 +1394,6 @@ footer .container .box .info i {
     align-items: center;
     width: 100%;
     text-align: center;
-    gap: 10px;
 
   }
 
