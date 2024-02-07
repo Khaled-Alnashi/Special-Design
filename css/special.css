@@ -1346,16 +1346,12 @@ footer .container .box>p {
   font-size: 20px;
 }
 
-footer .container .box .info div,
 footer .container .box .info a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
-}
-
-footer .container .box .info a {
   width: fit-content;
+  gap: 15px;
   padding-right: 20px;
   border-radius: 8px;
   background-color: var(--bgcolor);
@@ -1386,7 +1382,6 @@ footer .container .box .info i {
     text-align: center;
   }
 
-  footer .container .box .info div,
   footer .container .box .info a {
     display: flex;
     /* flex-direction: column; */
@@ -1394,15 +1389,12 @@ footer .container .box .info i {
     align-items: center;
     width: 100%;
     text-align: center;
+    gap: 10px;
 
   }
 
   footer .container .box .info a p {
     flex: 1;
-  }
-
-  footer .container .box .info div p {
-    padding-right: 20px;
   }
 }
 
